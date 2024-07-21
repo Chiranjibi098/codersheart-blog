@@ -1,0 +1,29 @@
+{
+  "site": {
+    "title": "CodersHeart ",
+    "name": "Coders_Heart",
+    "batch": "/faviconcoders.png",
+    "base_url": "https://codersheart.in",
+    "base_path": "/",
+    "favicon": "https://i.imgur.com/OoOF0ev.png",
+    "logoLight": "https://i.imgur.com/D8m1TAg.png",
+    "logoDark": "https://i.imgur.com/63FUsT6.png",
+    "profile": "https://i.imgur.com/121cVqe.png",
+    "lang": "en",
+    "description": "Coder Heart: Passionate Insights and Practical Guides for Developers",
+    "pageSize": 6
+  },
+  "features": {
+    "youtube": true,
+    "dark_mode": true
+  },
+  "metadata": {
+    "meta_author": "Chiranjibi",
+    "meta_description": "Coder Heart: Passionate Insights and Practical Guides for Developers"
+  },
+  "author": {
+    "name": "Debasis Panda",
+    "avatar": "/debasis-profile.png",
+    "bio": "Coder Heart: Passionate Insights and Practical Guides for Developers"
+  }
+}

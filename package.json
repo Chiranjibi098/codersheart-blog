@@ -1,0 +1,59 @@
+{
+  "name": "codersheart",
+  "version": "1.1.6",
+  "description": "NULL",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "CodersHeart"
+  },
+  "keywords": [
+    "JavaScript",
+    "Astro",
+    "react",
+    "tailwindcss",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "youtube": "node scripts/youtube.cjs",
+    "newpost": "astro-md-generator",
+    "format": "prettier -w .",
+    "lint:eslint": "eslint . --ext .js,.ts,.astro"
+  },
+  "devDependencies": {
+    "@astrojs/mdx": "2.2.3",
+    "@astrojs/rss": "4.0.5",
+    "@astrojs/sitemap": "3.1.2",
+    "@astrojs/tailwind": "5.1.0",
+    "@tailwindcss/aspect-ratio": "0.4.2",
+    "@tailwindcss/typography": "0.5.12",
+    "@typescript-eslint/eslint-plugin": "7.5.0",
+    "@typescript-eslint/parser": "7.5.0",
+    "astro": "4.5.15",
+    "astro-md-generator": "1.0.0",
+    "astro-robots-txt": "1.0.0",
+    "dotenv": "16.4.5",
+    "eslint": "8.57.0",
+    "eslint-plugin-astro": "0.33.1",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "googleapis": "134.0.0",
+    "prettier": "3.2.5",
+    "prettier-plugin-astro": "0.13.0",
+    "prettier-plugin-tailwindcss": "0.5.13",
+    "tailwindcss": "3.4.3",
+    "vite-plugin-pwa": "0.19.7"
+  },
+  "resolutions": {
+    "astro/sharp": "0.33.1",
+    "astro-compress/sharp": "0.33.1"
+  },
+  "dependencies": {
+    "astro-compressor": "0.4.1",
+    "sharp": "^0.33.4"
+  }
+}
