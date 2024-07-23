@@ -6,6 +6,7 @@ import Footer from '@components/Footer.astro';
 import config from '@config/config.json';
 import { createOgImage } from '@utils/createOgImage';
 import GoogleAnalytics from '@components/GoogleAnalytics.astro';
+import CookieConsent from '../components/CookieConsent.astro';
 
 import '@styles/global.css';
 
@@ -93,6 +94,7 @@ const ogImage = createOgImage({
     
     <script is:inline src="/registerSW.js"></script>
     <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
     <ViewTransitions />
   </head>
   <body class="bg-white dark:bg-zinc-900/95">
@@ -103,9 +105,11 @@ const ogImage = createOgImage({
     </main>
     {!blogpost && config.features.youtube && <FeaturedVideos />}
     <Footer />
+    <CookieConsent />
     <script>
       // This is a hack to get vite-plugin-pwa to generate a sw.js file.
       // Do not remove this script tag.
     </script>
+    <script type="module" src="../../scripts/cookieconsent-config.js"></script>
   </body>
 </html>

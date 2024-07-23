@@ -8,6 +8,8 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 import { manifest } from './src/utils/manifest';
 
+import cookieconsent from "@jop-software/astro-cookieconsent";
+
 // https://astro.build/config
 export default defineConfig({
   site: 'http://localhost:4322/',
@@ -34,6 +36,22 @@ export default defineConfig({
     sitemap(),
     tailwind(),
     robotsTxt(),
+    cookieconsent({
+      guiOptions: {
+        consentModal: {
+          layout: 'cloud',
+          position: 'bottom center',
+          equalWeightButtons: true,
+          flipButtons: false,
+        },
+        preferencesModal: {
+          layout: "box",
+          position: "right",
+          equalWeightButtons: true,
+          flipButtons: false,
+        },
+      },
+    }),
   ],
   vite: {
     plugins: [
