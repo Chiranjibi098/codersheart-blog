@@ -4,6 +4,7 @@ description: "Quantum computing, an emerging and transformative technology, is p
 pubDate: "2024-07-15T13:14:58.358Z"
 heroImage: "https://i.imgur.com/h0ncgQa.png"
 categories: ['Dev']
+keywords: ["future technology", "quantum leap tech", "cutting-edge innovations", "technology trends", "emerging technologies", "tech advancements", "next-gen tech", "futuristic technology", "technology predictions", "high-tech developments"]
 tags: ['Quantum computing', 'Dev']
 authors:
   - name: 'Debasis Panda'

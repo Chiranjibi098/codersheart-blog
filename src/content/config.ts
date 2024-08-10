@@ -14,6 +14,7 @@ const blog = defineCollection({
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
     categories: z.array(z.string()).default(['others']),
+    keywords: z.array(z.string()).default([]),
     tags: z.array(z.string()).default(['others']),
     authors: z.array(authorSchema).default([{ name: 'gndx', avatar: '/default-avatar.png', bio: '' }]),
   }),

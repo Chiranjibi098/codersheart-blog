@@ -4,6 +4,7 @@ description: "Discover how blockchain and smart contracts are revolutionizing th
 pubDate: "2024-07-14T14:47:41.366Z"
 heroImage: 'https://i.imgur.com/jhvbQ9W.png'
 categories: ['Blockchain']
+keywords: ["blockchain technology", "smart contracts", "future of trust", "decentralized systems", "blockchain applications", "cryptocurrency", "digital contracts", "security and trust", "blockchain innovations", "smart contract use cases"]
 tags: ['Blockchain', 'technology']
 authors:
   - name: 'Debasis Panda'

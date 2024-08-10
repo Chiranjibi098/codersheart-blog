@@ -4,6 +4,7 @@ description: "Git is a distributed version control system that allows multiple p
 pubDate: "2024-07-04T11:36:05.185Z"
 heroImage: "https://i.imgur.com/iJ8vvDW.png"
 categories: ['Dev']
+keywords: ["Git tutorial", "GitHub for beginners", "understanding Git", "Git commands", "GitHub workflows", "version control systems", "basic Git usage", "GitHub basics", "repository management", "Git version control"]
 tags: ['GitHub', 'technology']
 authors:
   - name: 'Chiranjibi Sahu'

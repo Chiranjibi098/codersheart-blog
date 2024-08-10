@@ -4,6 +4,7 @@ description: "Rust, an avant-garde systems programming language renowned for its
 pubDate: "2024-07-21T14:55:47.348Z"
 heroImage: "https://i.imgur.com/Wy3yIHA.png"
 categories: ['Blockchain']
+keywords: ["Rust programming", "advanced Rust", "cutting-edge features", "Rust capabilities", "in-depth code examples", "systems programming", "memory safety", "performance optimization", "Rust tutorials", "concurrency in Rust"]
 tags: ['Rust', 'technology']
 authors:
   - name: 'Debasis Panda'

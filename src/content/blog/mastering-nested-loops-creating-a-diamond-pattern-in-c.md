@@ -4,6 +4,7 @@ description: "Learn how to harness the power of nested loops in C to create intr
 pubDate: "2024-07-14T10:48:26.000Z"
 heroImage: "https://i.imgur.com/hfWhlZW.png"
 categories: ['C']
+keywords: ["nested loops in C", "diamond pattern C", "C programming patterns", "looping techniques", "C programming tutorials", "algorithm examples", "C language exercises", "pattern generation in C", "programming challenges", "C code examples"]
 tags: ['C', 'Dev']
 authors:
   - name: 'Anshuman Champatiray'

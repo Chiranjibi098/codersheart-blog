@@ -4,6 +4,7 @@ description: "JavaScript provides three ways to declare variables: `var`, `let`,
 pubDate: "2024-07-15T04:26:51.595Z"
 heroImage: "https://i.imgur.com/k5m4DZe.png"
 categories: ['JavaScript']
+keywords: ["JavaScript var vs let vs const", "difference between var let const", "JavaScript variable declarations", "var let const usage", "JavaScript programming", "ES6 features", "JavaScript scope and hoisting", "variable scope JavaScript", "const vs let", "JavaScript tutorials"]
 tags: ['Java Script', 'technology']
 authors:
   - name: 'Dibya Ranjan Maity'
