@@ -4,7 +4,7 @@ description: "React Hot Toast is a lightweight and customizable toast notificati
 pubDate: "2024-07-16T06:38:02.878Z"
 heroImage: "https://i.imgur.com/1tMFRP8.png"
 categories: ['React']
-["React Hot Toast", "React notifications", "user experience", "toast notifications", "React UI", "UI/UX design", "React libraries", "enhancing user experience", "front-end development", "React tutorials"]
+keywords: ["React Hot Toast", "React notifications", "user experience", "toast notifications", "React UI", "UI/UX design", "React libraries", "enhancing user experience", "front-end development", "React tutorials"]
 tags: ['React', 'Dev']
 authors:
   - name: 'Chiranjibi Sahu'

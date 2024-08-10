@@ -4,7 +4,7 @@ description: "Dive into the fascinating world of C programming with these classi
 pubDate: "2024-07-25T07:26:03.168Z"
 heroImage: "https://i.imgur.com/2O96ZDD.jpg"
 categories: ['C']
-["C programming", "sorting algorithms", "data swapping", "finding days in C", "C coding challenges", "algorithm implementation", "C programming tutorials", "date manipulation in C", "programming exercises", "C language practices"]
+keywords: ["C programming", "sorting algorithms", "data swapping", "finding days in C", "C coding challenges", "algorithm implementation", "C programming tutorials", "date manipulation in C", "programming exercises", "C language practices"]
 tags: ['C', 'Dev']
 authors:
   - name: 'Anshuman Champatiray'
