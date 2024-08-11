@@ -1,5 +1,6 @@
 ---
 title: "Difference Between var, let, and const"
+id: "understanding-variable-declaration-in-javascript-var-let-and-const.md"
 description: "JavaScript provides three ways to declare variables: `var`, `let`, and `const`. Each has different scoping rules and characteristics, which are important to understand for effective coding. This guide explains the differences between these keywords with examples."
 pubDate: "2024-07-15T04:26:51.595Z"
 heroImage: "https://i.imgur.com/k5m4DZe.png"

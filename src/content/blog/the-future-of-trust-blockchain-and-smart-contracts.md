@@ -1,5 +1,6 @@
 ---
 title: "The Future of Trust: Blockchain and Smart Contracts"
+id: "the-future-of-trust-blockchain-and-smart-contracts.md"
 description: "Discover how blockchain and smart contracts are revolutionizing the way we establish trust and conduct transactions. This blog provides an in-depth look at the technology behind blockchain, the functionality of smart contracts, and their applications across various sectors."
 pubDate: "2024-07-14T14:47:41.366Z"
 heroImage: 'https://i.imgur.com/jhvbQ9W.png'

@@ -9,26 +9,27 @@ import config from '@config/config.json';
 import { slugify } from '@utils/slug';
 import RecentBlogPosts from '@components/RecentBlogPosts.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, heroImage, categories, tags, authors } = Astro.props;
+type Props = CollectionEntry<'blog'>['data'] & { id?: string };
+
+const { title, description, pubDate, heroImage, categories, tags, authors, keywords, id } = Astro.props as Props;
 const author = authors[0];
 
-// Ensure the current post ID is available
-const currentPostId = Astro.props.id || ''; // Fallback to empty string if undefined
+const currentPostId = id ? id.split('/').pop().replace('.md', '') : '';
+
 
 // Construct social sharing URLs
 const encodedTitle = encodeURIComponent(title);
 const encodedUrl = encodeURIComponent(
-  `https://yourwebsite.com/blog/${currentPostId.split('/').pop().replace('.md', '')}`
+  `https://codersheart.in/blog/${currentPostId}`
 );
-const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
-const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`;
+const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}&picture=${heroImage}`;
+const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}&media=${heroImage}`;
 const linkedinShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`;
 const instagramShareUrl = `https://www.instagram.com/?url=${encodedUrl}`; // Open Instagram with URL field
 ---
 
-<Base meta_title={title} description={description} image={heroImage} blogpost>
+<Base meta_title={title} description={description} image={heroImage} keywords={keywords} blogpost>
   <article>
     <div class="mb-8 block overflow-hidden rounded-lg">
       {

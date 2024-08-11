@@ -1,5 +1,6 @@
 ---
 title: "Java 21 Update: What's New and Exciting?"
+id: "java-21-update.md"
 description: 'Java 21 has arrived, and it brings a plethora of new features, enhancements, and performance improvements.'
 pubDate: "2024-07-03T06:20:12.585Z"
 heroImage: 'https://i.imgur.com/GEff9SD.png'

@@ -1,5 +1,6 @@
 ---
 title: 'Rails vs Django'
+id: '230919-another-blogpost.md'
 description: 'Rails vs Django: A Comparative Guide with Code Examples'
 pubDate: '2024-07-02'
 heroImage: 'https://i.imgur.com/xxjtyL1.png'

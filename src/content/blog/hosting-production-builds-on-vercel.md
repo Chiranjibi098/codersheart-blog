@@ -1,5 +1,6 @@
 ---
 title: "Hosting Production Builds on Vercel: A Beginner's Guide"
+id: "hosting-production-builds-on-vercel.md"
 description: "This guide is tailored for students and beginners who want to learn how production builds are hosted on Vercel and understand how the platform works."
 pubDate: "2024-07-05T12:36:53.487Z"
 heroImage: "https://i.imgur.com/qNazTZL.png"

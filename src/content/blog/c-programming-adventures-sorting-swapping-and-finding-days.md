@@ -1,5 +1,6 @@
 ---
 title: "C Programming Adventures: Sorting, Swapping, and Finding Days! 🌟💻"
+id: "c-programming-adventures-sorting-swapping-and-finding-days.md"
 description: "Dive into the fascinating world of C programming with these classic examples! Learn how to swap values, sort arrays using bubble and selection sort algorithms, and even find the day of the week for any given date. Let's explore these essential concepts with fun and practical code snippets! 🚀📅"
 pubDate: "2024-07-25T07:26:03.168Z"
 heroImage: "https://i.imgur.com/2O96ZDD.jpg"

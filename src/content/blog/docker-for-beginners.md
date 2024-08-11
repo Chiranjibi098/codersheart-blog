@@ -1,5 +1,6 @@
 ---
 title: "Understanding Docker: A Guide for Beginners"
+id: "docker-for-beginners.md"
 description: "Docker is a platform that uses containerization to package applications with all their dependencies, ensuring consistency across different environments."
 pubDate: "2024-07-14T04:44:22.670Z"
 heroImage: "https://i.imgur.com/y7DMkAY.png"

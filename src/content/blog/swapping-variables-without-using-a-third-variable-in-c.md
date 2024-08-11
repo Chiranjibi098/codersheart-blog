@@ -1,5 +1,6 @@
 ---
 title: "Swapping Variables Without Using a Third Variable in C"
+id: "swapping-variables-without-using-a-third-variable-in-c.md"
 description: "Swapping the values of two variables is a common task in programming. A typical approach involves using a third variable to temporarily hold one of the values."
 pubDate: "2024-07-15T05:10:36.182Z"
 heroImage: "https://i.imgur.com/VUjxfu1.png"

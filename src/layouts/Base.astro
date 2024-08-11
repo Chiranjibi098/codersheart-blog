@@ -20,9 +20,10 @@ export interface Props {
   noindex?: boolean;
   canonical?: string;
   blogpost?: boolean;
+  keywords?: string[];
 }
 
-const { title, meta_title, description, noindex, blogpost } = Astro.props;
+const { title, meta_title, description, noindex, blogpost, keywords, image } = Astro.props;
 
 const ogImage = createOgImage({
   title: meta_title ? meta_title : title ? title : config.site.title,
@@ -62,21 +63,21 @@ const ogImage = createOgImage({
     <link rel="canonical" href={`${config.site.base_url}/${Astro.url.pathname.replace('/', '')}`} item-prop="url" />
     {noindex && <meta name="robots" content="noindex,nofollow" />}
     <meta name="author" content={config.metadata.meta_author} />
-    <meta name="keywords" content="Coder Heart, development blog, coding tutorials, programming guides, software development, web development, Node.js, JavaScript, Vercel, developers, India" />
+    <meta name="keywords" content={keywords ? keywords.join(', ') : 'Coder Heart, development blog, coding tutorials, programming guides, software development, web development, Node.js, JavaScript, Vercel, developers, India'} />
 
     <!-- Open Graph meta tags -->
     <meta property="og:title" content={meta_title ? meta_title : title ? title : config.site.title} />
     <meta property="og:description" content={description ? description : config.metadata.meta_description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={`${config.site.base_url}/${Astro.url.pathname.replace('/', '')}`} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={image} />
     <meta property="og:site_name" content={config.site.title} />
 
     <!-- Twitter meta tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={meta_title ? meta_title : title ? title : config.site.title} />
     <meta name="twitter:description" content={description ? description : config.metadata.meta_description} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={image} />
 
     <!-- Additional meta tags for SEO -->
     <meta name="robots" content="index, follow" />

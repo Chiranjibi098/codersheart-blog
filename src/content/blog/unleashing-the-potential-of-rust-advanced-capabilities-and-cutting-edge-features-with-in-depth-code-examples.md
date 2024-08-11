@@ -1,5 +1,6 @@
 ---
 title: "🚀 Unleashing the Potential of Rust: Advanced Capabilities and Cutting-Edge Features with In-Depth Code Examples"
+id: "unleashing-the-potential-of-rust-advanced-capabilities-and-cutting-edge-features-with-in-depth-code-examples.md"
 description: "Rust, an avant-garde systems programming language renowned for its performance, reliability, and productivity, continues to make significant strides in the software development landscape."
 pubDate: "2024-07-21T14:55:47.348Z"
 heroImage: "https://i.imgur.com/Wy3yIHA.png"

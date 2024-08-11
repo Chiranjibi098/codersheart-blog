@@ -1,5 +1,6 @@
 ---
 title: "🚀 Elevating Java Development: Mastering Multiple REST Calls with CompletableFuture"
+id: "elevating-java-development-mastering-multiple-rest-calls-with-completablefuture.md"
 description: "In the realm of modern Java development, efficient handling of concurrent tasks is paramount. Java's CompletableFuture offers a robust solution for asynchronous programming, enabling developers to execute multiple REST calls concurrently and manage their results seamlessly."
 pubDate: "2024-07-16T07:15:00.746Z"
 heroImage: "https://i.imgur.com/ArYG7lt.png"

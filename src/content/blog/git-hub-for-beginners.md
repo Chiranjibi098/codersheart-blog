@@ -1,5 +1,6 @@
 ---
 title: "Understanding Git and GitHub: A Guide for Beginners"
+id: "git-hub-for-beginners.md"
 description: "Git is a distributed version control system that allows multiple people to work on a project simultaneously without overwriting each other's changes."
 pubDate: "2024-07-04T11:36:05.185Z"
 heroImage: "https://i.imgur.com/iJ8vvDW.png"

@@ -1,5 +1,6 @@
 ---
 title: "Mastering Nested Loops: Creating a Diamond Pattern in C"
+id: "mastering-nested-loops-creating-a-diamond-pattern-in-c.md"
 description: "Learn how to harness the power of nested loops in C to create intricate diamond patterns. This step-by-step guide will walk you through understanding the pattern, setting up loops, and implementing conditions to achieve a beautifully symmetrical diamond shape, perfect for both beginners and experienced programmers."
 pubDate: "2024-07-14T10:48:26.000Z"
 heroImage: "https://i.imgur.com/hfWhlZW.png"

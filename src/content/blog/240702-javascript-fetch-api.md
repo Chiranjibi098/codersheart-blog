@@ -1,5 +1,6 @@
 ---
 title: "JavaScript Fetch API"
+id: "240702-javascript-fetch-api.md"
 description: 'The Fetch API provides a modern interface for making HTTP requests in JavaScript.'
 pubDate: "2024-07-02T14:28:39.892Z"
 heroImage: 'https://i.imgur.com/gjIFT0J.png'

@@ -1,5 +1,6 @@
 ---
 title: "Quantum leap into future tech"
+id: "quantum-leap.md"
 description: "Quantum computing, an emerging and transformative technology, is poised to revolutionize the landscape of computation. By harnessing the principles of quantum mechanics, quantum computers offer the potential to solve complex problems that are currently unsolvable by classical computers."
 pubDate: "2024-07-15T13:14:58.358Z"
 heroImage: "https://i.imgur.com/h0ncgQa.png"
