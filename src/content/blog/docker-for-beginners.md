@@ -5,7 +5,7 @@ description: "Docker is a platform that uses containerization to package applica
 pubDate: "2024-07-14T04:44:22.670Z"
 heroImage: "https://i.imgur.com/y7DMkAY.png"
 categories: ['Dev']
-keywords: ["Docker basics", "beginner Docker guide", "containerization tutorial", "Docker for beginners", "Docker setup", "understanding Docker", "Docker containers", "Docker tutorials", "container technology", "DevOps tools"]
+keywords: ["Coders Heart","Docker basics", "beginner Docker guide", "containerization tutorial", "Docker for beginners", "Docker setup", "understanding Docker", "Docker containers", "Docker tutorials", "container technology", "DevOps tools"]
 tags: ['GitHub', 'technology']
 authors:
   - name: 'Chiranjibi Sahu'

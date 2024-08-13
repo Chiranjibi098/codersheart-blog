@@ -5,7 +5,7 @@ description: "Swapping the values of two variables is a common task in programmi
 pubDate: "2024-07-15T05:10:36.182Z"
 heroImage: "https://i.imgur.com/VUjxfu1.png"
 categories: ['C']
-keywords: ["swap variables in C", "C programming tricks", "variable swapping without third variable", "C language examples", "swap algorithm in C", "programming challenges", "C coding techniques", "swap using arithmetic", "bitwise swapping in C", "efficient variable swapping"]
+keywords: ["Coders Heart","swap variables in C", "C programming tricks", "variable swapping without third variable", "C language examples", "swap algorithm in C", "programming challenges", "C coding techniques", "swap using arithmetic", "bitwise swapping in C", "efficient variable swapping"]
 tags: ['C', 'Dev']
 authors:
   - name: 'Anshuman Champatiray'

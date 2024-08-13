@@ -5,7 +5,7 @@ description: "In the realm of modern Java development, efficient handling of con
 pubDate: "2024-07-16T07:15:00.746Z"
 heroImage: "https://i.imgur.com/ArYG7lt.png"
 categories: ['Java']
-keywords: ["Java CompletableFuture", "multiple REST calls Java", "asynchronous programming Java", "Java concurrency", "REST API calls", "CompletableFuture tutorial", "Java development", "handling REST requests", "Java async processing", "advanced Java features"]
+keywords: ["Coders Heart","Java CompletableFuture", "multiple REST calls Java", "asynchronous programming Java", "Java concurrency", "REST API calls", "CompletableFuture tutorial", "Java development", "handling REST requests", "Java async processing", "advanced Java features"]
 tags: ['Java', 'Dev Updates']
 authors:
   - name: 'Debasis Panda'

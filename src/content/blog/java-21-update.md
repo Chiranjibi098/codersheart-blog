@@ -5,7 +5,7 @@ description: 'Java 21 has arrived, and it brings a plethora of new features, enh
 pubDate: "2024-07-03T06:20:12.585Z"
 heroImage: 'https://i.imgur.com/GEff9SD.png'
 categories: ['Java']
-keywords: ["Java 21 new features", "Java 21 update", "Java programming", "Java 21 enhancements", "Java 21 improvements", "latest Java release", "Java development", "Java 21 overview", "what's new in Java 21", "Java 21 features"]
+keywords: ["Coders Heart","Java 21 new features", "Java 21 update", "Java programming", "Java 21 enhancements", "Java 21 improvements", "latest Java release", "Java development", "Java 21 overview", "what's new in Java 21", "Java 21 features"]
 tags: ['Java', 'Dev Updates']
 authors:
   - name: 'Chiranjibi Sahu'

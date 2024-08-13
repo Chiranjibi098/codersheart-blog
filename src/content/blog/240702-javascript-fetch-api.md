@@ -5,7 +5,7 @@ description: 'The Fetch API provides a modern interface for making HTTP requests
 pubDate: "2024-07-02T14:28:39.892Z"
 heroImage: 'https://i.imgur.com/gjIFT0J.png'
 categories: ['JavaScript']
-keywords: ["JavaScript Fetch API", "Fetch API tutorial", "making network requests JavaScript", "Fetch API examples", "handling API responses", "JavaScript API calls", "Fetch API vs XMLHttpRequest", "modern JavaScript", "web development", "client-side JavaScript"]
+keywords: ["Coders Heart","JavaScript Fetch API", "Fetch API tutorial", "making network requests JavaScript", "Fetch API examples", "handling API responses", "JavaScript API calls", "Fetch API vs XMLHttpRequest", "modern JavaScript", "web development", "client-side JavaScript"]
 tags: ['Java Script', 'technology']
 authors:
   - name: 'Chiranjibi Sahu'

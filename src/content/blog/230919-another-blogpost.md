@@ -5,7 +5,7 @@ description: 'Rails vs Django: A Comparative Guide with Code Examples'
 pubDate: '2024-07-02'
 heroImage: 'https://i.imgur.com/xxjtyL1.png'
 categories: ['Dev']
-keywords: ["Rails vs Django", "Ruby on Rails vs Django", "Rails comparison", "Django features", "web development frameworks", "Rails advantages", "Django benefits", "frameworks for web apps", "Ruby on Rails tutorial", "Django tutorial"]
+keywords: ["Coders Heart","Rails vs Django", "rails tutorial", "Rails comparison", "Django features", "web development frameworks", "Rails advantages", "Django benefits", "frameworks for web apps", "Ruby on Rails tutorial", "Django tutorial"]
 tags: ['Rails', 'technology']
 authors:
   - name: 'Debasis Panda'

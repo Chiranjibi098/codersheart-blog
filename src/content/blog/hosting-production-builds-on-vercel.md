@@ -5,7 +5,7 @@ description: "This guide is tailored for students and beginners who want to lear
 pubDate: "2024-07-05T12:36:53.487Z"
 heroImage: "https://i.imgur.com/qNazTZL.png"
 categories: ['Hosting']
-keywords: ["hosting production builds Vercel", "beginner's guide Vercel", "Vercel deployment", "Vercel setup", "production deployment Vercel", "Vercel hosting tutorial", "Vercel best practices", "deploying applications Vercel", "web hosting Vercel", "Vercel for beginners"]
+keywords: ["Coders Heart","hosting production builds Vercel", "beginner's guide Vercel", "Vercel deployment", "Vercel setup", "production deployment Vercel", "Vercel hosting tutorial", "Vercel best practices", "deploying applications Vercel", "web hosting Vercel", "Vercel for beginners"]
 tags: ['Vercel', 'Dev Updates']
 authors:
   - name: 'Chiranjibi Sahu'
