@@ -1,0 +1,24 @@
+---
+// const isBrowser = typeof window !== "undefined";
+---
+<audio id="nationalAnthem" autoplay hidden>
+  <source src="/sare-jahan-se-acha-guitar.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
+<script type="module">
+  if (import.meta.env.SSR === false) {
+    document.addEventListener('DOMContentLoaded', function () {
+      const anthem = document.getElementById('nationalAnthem');
+
+      if (anthem) {
+        anthem.play();
+
+        setTimeout(() => {
+          anthem.pause();
+          anthem.currentTime = 0; // Reset to start
+        }, 5000); // 5000ms = 5 seconds
+      }
+    });
+  }
+</script>
