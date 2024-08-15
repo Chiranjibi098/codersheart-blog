@@ -7,7 +7,7 @@ import config from '@config/config.json';
 import { createOgImage } from '@utils/createOgImage';
 import GoogleAnalytics from '@components/GoogleAnalytics.astro';
 import CookieConsent from '../components/CookieConsent.astro';
-import NationalAnthem from '../components/NationalAnthem.astro';
+// import NationalAnthem from '../components/NationalAnthem.astro';
 
 import '@styles/global.css';
 
@@ -111,9 +111,9 @@ const ogImage = createOgImage({
       }
     </style>
     <Header />
-    <NationalAnthem />
+    <!-- <NationalAnthem /> -->
     {!blogpost && <Hero />}
-    <div style="display: flex; justify-content: center;align-itemns: center; margin-top: 20px;">
+    <!-- <div style="display: flex; justify-content: center;align-itemns: center; margin-top: 20px;">
       <p class="font-style" style="display: flex;">
         <svg width="36" height="36" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -149,7 +149,7 @@ const ogImage = createOgImage({
             fill="#000088"></path>
         </svg>
       </p>
-    </div>
+    </div> -->
     <main class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <slot />
     </main>
