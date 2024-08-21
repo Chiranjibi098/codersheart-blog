@@ -5,7 +5,7 @@ description: "Learn how to find the smallest number in an array using C programm
 pubDate: "2024-08-17T09:40:48.361Z"
 heroImage: "https://i.imgur.com/wf5Bqzp.png"
 categories: ['C']
-keywords: ["Coders Heart", "Finding the Smallest Number in an Array Using C", "C programming array", "smallest number in C", "minimum value in array C", "C programming basics", "array manipulation C", "C language tutorial", "smallest element C program", "find minimum number C", "C array examples", "beginner C programming", "C coding practices"]
+keywords: ["Coders Heart", "C programming array", "smallest number in C", "minimum value in array C", "C programming basics", "array manipulation C", "C language tutorial", "smallest element C program", "find minimum number C", "C array examples", "beginner C programming", "C coding practices"]
 tags: ['C', 'Basic in c']
 authors:
   - name: 'Anshuman Champatiray'
