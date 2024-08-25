@@ -47,12 +47,7 @@ const ogImage = createOgImage({
         gtag('config', 'G-H75PP36701');
       }
     </script>
-    <script
-      type="module"
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6290745948063654"
-      crossorigin="anonymous"
-      client:load></script>
+
     <!-- favicon -->
     <link rel="shortcut icon" href="/favicons/favicon.ico" />
     <!-- theme meta -->
@@ -159,9 +154,7 @@ const ogImage = createOgImage({
     </div> -->
     <main class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <slot />
-      <div style="margin-top: 10px;">
-
-      </div>
+      <div style="margin-top: 10px;"></div>
       <!-- Astro Island for Google Ad -->
       <script
         type="module"
@@ -180,9 +173,7 @@ const ogImage = createOgImage({
       <script type="module">
         (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-      <div style="margin-top: 10px;">
-  
-      </div>
+      <div style="margin-top: 10px;"></div>
     </main>
     {!blogpost && config.features.youtube && <FeaturedVideos />}
     <Footer />
@@ -192,5 +183,11 @@ const ogImage = createOgImage({
       // Do not remove this script tag.
     </script>
     <script type="module" src="../../scripts/cookieconsent-config.js"></script>
+    <script
+      type="module"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6290745948063654"
+      crossorigin="anonymous"
+      client:load></script>
   </body>
 </html>
