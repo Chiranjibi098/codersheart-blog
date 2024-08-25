@@ -7,6 +7,7 @@ import config from '@config/config.json';
 import { createOgImage } from '@utils/createOgImage';
 import GoogleAnalytics from '@components/GoogleAnalytics.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import GoogleAd from '../components/GoogleAd.jsx';
 // import NationalAnthem from '../components/NationalAnthem.astro';
 
 import '@styles/global.css';
@@ -46,9 +47,12 @@ const ogImage = createOgImage({
         gtag('config', 'G-H75PP36701');
       }
     </script>
-    <script type="module" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6290745948063654"
-    crossorigin="anonymous" client:load></script>
-    <script type="module" async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js" client:load></script>
+    <script
+      type="module"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6290745948063654"
+      crossorigin="anonymous"
+      client:load></script>
     <!-- favicon -->
     <link rel="shortcut icon" href="/favicons/favicon.ico" />
     <!-- theme meta -->
@@ -156,17 +160,8 @@ const ogImage = createOgImage({
     <main class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <slot />
     </main>
-    <amp-ad
-      width="100vw"
-      height="320"
-      type="adsense"
-      data-ad-client="ca-pub-6290745948063654"
-      data-ad-slot="4169751934"
-      data-auto-format="rspv"
-      data-full-width=""
-    >
-      <div overflow=""></div>
-    </amp-ad>
+    <!-- Astro Island for Google Ad -->
+    <GoogleAd client:load />
     {!blogpost && config.features.youtube && <FeaturedVideos />}
     <Footer />
     <CookieConsent />
