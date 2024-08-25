@@ -157,25 +157,50 @@ const ogImage = createOgImage({
         </svg>
       </p>
     </div> -->
-    <script
-      type="module"
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6290745948063654"
-      crossorigin="anonymous" client:load></script>
-    <ins
-      class="adsbygoogle"
-      style="display:block"
-      data-ad-format="autorelaxed"
-      data-ad-client="ca-pub-6290745948063654"
-      data-ad-slot="7124988268"></ins>
-    <script type="module">
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    <div class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8" style="margin-bottom: 10px;">
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <script
+          type="module"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6290745948063654"
+          crossorigin="anonymous"
+          client:load></script>
+        <ins
+          class="adsbygoogle"
+          style="display:block; text-align:center;"
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-6290745948063654"
+          data-ad-slot="6678164073"></ins>
+        <script type="module">
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
     <main class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <slot />
     </main>
     <!-- Astro Island for Google Ad -->
-    <GoogleAd client:load />
+    <div class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8" style="margin-top: 10px;">
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <script
+          type="module"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6290745948063654"
+          crossorigin="anonymous" client:load></script>
+        <!-- footer ads 2 -->
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-6290745948063654"
+          data-ad-slot="8745090066"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+        <script type="module">
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
     {!blogpost && config.features.youtube && <FeaturedVideos />}
     <Footer />
     <CookieConsent />
