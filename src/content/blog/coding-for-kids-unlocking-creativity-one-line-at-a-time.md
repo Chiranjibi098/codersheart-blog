@@ -35,7 +35,7 @@ Coding is like learning a superpower 🦸‍♂️ for today’s digital world. 
 
 The best way to start is with simple, fun tools and projects.
 
-1. **🛠 Choose a Tool That’s Easy and Fun**
+### 1. **🛠 Choose a Tool That’s Easy and Fun**
 
 **Scratch 🐱**: Drag and drop coding that’s perfect for beginners.
 
@@ -43,7 +43,7 @@ The best way to start is with simple, fun tools and projects.
 
 **Blockly 🔲**: Another visual tool that makes learning coding a breeze.
 
-2. **🎯 Start with Fun Projects**
+### 2. **🎯 Start with Fun Projects**
 
 Boring tutorials? No way! Pick projects that kids will love and can proudly show off.
 
