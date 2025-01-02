@@ -44,6 +44,19 @@ At their core, GANs are a type of machine learning model that can generate new, 
 3. **Convergence**:
    - The process continues until the Discriminator can no longer reliably tell real data from fake, indicating that the Generator has reached a high level of skill. 🏆
 
+### Mathematical Foundation
+
+The mathematical magic behind GANs lies in their loss function, which the two networks optimize in a minimax game. The Generative Adversarial Network (GAN) loss function consists of two parts: one for the discriminator 𝐷 and another for the generator 𝐺.
+![GAN Loss Function](https://i.imgur.com/ybMlz2U.jpg "GAN Loss function")
+
+where:
+![Loss funct](https://i.imgur.com/Crzh90X.jpg "Loss Funct")
+
+In simpler terms:
+
+- The Discriminator tries to maximize the chances of correctly identifying real vs. fake data. ✅❌
+- The Generator tries to minimize the chances of the Discriminator identifying its outputs as fake. 🤔
+
 ---
 
 ## Applications of GANs
