@@ -52,7 +52,7 @@ The mathematical magic behind GANs lies in their loss function, which the two ne
 where:
 ![Loss funct](https://i.imgur.com/Crzh90X.jpg "Loss Funct")
 
-In simpler terms:
+### In simpler terms:
 
 - The Discriminator tries to maximize the chances of correctly identifying real vs. fake data. ✅❌
 - The Generator tries to minimize the chances of the Discriminator identifying its outputs as fake. 🤔
