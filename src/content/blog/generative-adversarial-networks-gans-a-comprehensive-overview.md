@@ -47,7 +47,7 @@ At their core, GANs are a type of machine learning model that can generate new, 
 ### Mathematical Foundation
 
 The mathematical magic behind GANs lies in their loss function, which the two networks optimize in a minimax game. The Generative Adversarial Network (GAN) loss function consists of two parts: one for the discriminator 𝐷 and another for the generator 𝐺.
-![GAN Loss Function](https://i.imgur.com/TyAhVRw.jpg "GAN Loss function")
+![GAN Loss Function](https://i.imgur.com/YmWfrEB.jpg "GAN Loss function")
 
 where:
 ![Loss funct](https://i.imgur.com/Crzh90X.jpg "Loss Funct")
