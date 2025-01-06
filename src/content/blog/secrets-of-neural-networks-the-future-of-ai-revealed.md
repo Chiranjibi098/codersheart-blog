@@ -53,7 +53,7 @@ Okay, LSTMs are like RNNs but with a better memory. They can remember things for
 
 ### 5. **Transformers:**
 These are the cool kids of the deep learning world. Transformers handle sequences super efficiently by looking at all the data at once instead of step by step. ⚡
-- **Famous For:** Language models like GPT (yeah, like me!). 😎
+- **Famous For:** Language models like GPT. 😎
 
 ### 6. **Autoencoders:**
 These guys are all about compressing and then reconstructing data. Think of it like learning the essence of something. 🌀
