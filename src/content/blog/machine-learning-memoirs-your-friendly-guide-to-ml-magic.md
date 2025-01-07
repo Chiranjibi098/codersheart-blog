@@ -5,7 +5,7 @@ description: "Machine Learning isn’t just a buzzword; it’s the wizardry behi
 pubDate: "2025-01-07T04:41:19.986Z"
 heroImage: "https://i.imgur.com/Oqv6Q1V.png"
 categories: ['Artificial Intelligence']
-keywords: ["Machine Learning Memoirs", "AI and ML explained", "future of machine learning", "coding ML algorithms", "machine learning for beginners", "ML coding examples", "technology trends in AI", "cutting-edge machine learning", "emerging AI technologies", "next-gen machine learning", "ML predictions", "high-tech machine learning advancements", "futuristic ML technology", "how to start machine learning", "AI innovations in 2025", "practical machine learning tips", "machine learning trends", "supervised learning basics", "unsupervised learning examples", "reinforcement learning explained"]
+keywords: ["Coders Heart","Codersheart","Machine Learning Memoirs", "AI and ML explained", "future of machine learning", "coding ML algorithms", "machine learning for beginners", "ML coding examples", "technology trends in AI", "cutting-edge machine learning", "emerging AI technologies", "next-gen machine learning", "ML predictions", "high-tech machine learning advancements", "futuristic ML technology", "how to start machine learning", "AI innovations in 2025", "practical machine learning tips", "machine learning trends", "supervised learning basics", "unsupervised learning examples", "reinforcement learning explained"]
 tags: ['Machine Learning Memoirs', 'ML coding examples', 'Artificial Intelligence']
 authors:
   - name: 'Debasis Panda'
