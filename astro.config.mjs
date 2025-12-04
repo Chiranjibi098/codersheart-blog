@@ -15,9 +15,9 @@ import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
+  output: 'hybrid',
   adapter: vercel(),
-  site: 'http://localhost:4322/',
+  site: 'https://codersheart.in',
   image: {
     remotePatterns: [{ protocol: 'https' }],
   },
