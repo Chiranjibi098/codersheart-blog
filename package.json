@@ -57,6 +57,7 @@
     "@astrojs/react": "^3.6.2",
     "@astrojs/vercel": "^9.0.2",
     "@jop-software/astro-cookieconsent": "^3.0.0",
+    "@libsql/client": "^0.15.15",
     "@tanstack/react-query": "^5.90.11",
     "astro-compressor": "0.4.1",
     "better-auth": "^1.4.5",
