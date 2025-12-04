@@ -1,0 +1,18 @@
+---
+import AuthLayout from "@layouts/AuthLayout.astro";
+import LoginForm from "@components/LoginForm.tsx";
+import ThemeToggle from "@components/ThemeToggle.tsx";
+---
+
+<AuthLayout title="Login" meta_title="Login to CodersHeart">
+  <ThemeToggle client:load />
+  <div class="min-h-screen flex items-center justify-center px-4 py-12">
+    <div class="w-full max-w-md">
+      <div class="text-center mb-8">
+        <h1 class="text-4xl font-bold text-zinc-900 dark:text-zinc-100 mb-2">Welcome Back</h1>
+        <p class="text-zinc-600 dark:text-zinc-400">Sign in to your account</p>
+      </div>
+      <LoginForm client:load />
+    </div>
+  </div>
+</AuthLayout>

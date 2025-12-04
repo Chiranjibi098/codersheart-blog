@@ -15,6 +15,14 @@
     {
       "name": "Categories",
       "url": "/categories"
+    },
+    {
+      "name": "Login",
+      "url": "/login"
+    },
+    {
+      "name": "Signup",
+      "url": "/signup"
     }
   ]
 }

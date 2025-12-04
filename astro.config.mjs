@@ -13,6 +13,7 @@ import cookieconsent from "@jop-software/astro-cookieconsent";
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'server',
   site: 'http://localhost:4322/',
   image: {
     remotePatterns: [{ protocol: 'https' }],
