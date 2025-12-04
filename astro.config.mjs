@@ -11,9 +11,12 @@ import { manifest } from './src/utils/manifest';
 
 import cookieconsent from "@jop-software/astro-cookieconsent";
 
+import vercel from '@astrojs/vercel';
+
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
+  adapter: vercel(),
   site: 'http://localhost:4322/',
   image: {
     remotePatterns: [{ protocol: 'https' }],

@@ -5,6 +5,8 @@ import Posts from "@layouts/Posts.astro";
 import Pagination from "@components/Pagination.astro";
 import config from "@config/config.json";
 
+export const prerender = true;
+
 export async function getStaticPaths({ paginate }) {
   const allPosts = await getCollection("blog");
   const formattedPosts = allPosts.sort(
